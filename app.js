@@ -5,7 +5,7 @@ const proxy = httpProxy.createProxyServer();
 
 const server = http.createServer(function (req, res) {
     res.writeHead(301,
-        {Location: (process.env.REDIRECTED_URL||'https://www.twin2green.com/admin')+req.url}
+        {Location: (process.env.REDIRECTED_URL)+req.url}
     );
     res.end();
 });
