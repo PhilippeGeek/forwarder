@@ -1,0 +1,12 @@
+{
+  "name": "forwarder",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "debug": "~2.2.0",
+    "http-proxy": "^1.14.0"
+  }
+}
