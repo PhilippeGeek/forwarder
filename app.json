@@ -1,0 +1,17 @@
+{
+  "name": "Forwarder",
+  "description": "Simple node server to forward requests",
+  "logo": "https://raw.githubusercontent.com/PhilippeGeek/forwarder/master/icon.png",
+  "keywords": [
+    "node",
+    "forward",
+    "redirect"
+  ],
+  "repository": "https://github.com/PhilippeGeek/forwarder",
+  "success_url": "/",
+  "env": {
+    "REDIRECTED_URL": {
+      "description": "Prepend of the path redirection (redirected path is {{REDIRECTED_URL}}+{{requested path on the app}})"
+    }
+  }
+}
